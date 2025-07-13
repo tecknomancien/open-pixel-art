@@ -89,6 +89,11 @@ This project is powered by various open-source projects. Among others:
 - [NES.css](https://nostalgic-css.github.io/NES.css/) for the CSS styling
 - [Welcome Bot](https://github.com/behaviorbot/welcome) to welcome new contributors
 
+## Pong Clone
+
+A simple Pong clone is available in [games/pong/pong.html](games/pong/pong.html). Open this file in a web browser to play. Use `W`/`S` for the left paddle and the arrow keys for the right paddle.
+
 ## License
+
 
 MIT
