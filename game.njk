@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autorunner</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P&display=swap" rel="stylesheet" />
+    <link href="/assets/nes.css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header class="text-center">
+      <h1>Autorunner</h1>
+      <nav>
+        <a class="nes-btn" href="/">Home</a>
+      </nav>
+    </header>
+    <main class="text-center">
+      <p>Level: <span id="level">1</span> | Time: <span id="time">120</span> | Lives: <span id="lives">5</span></p>
+      <canvas id="gameCanvas" class="nes-container is-rounded"></canvas>
+    </main>
+    <script src="/assets/autorunner/autorunner.js"></script>
+  </body>
+</html>
